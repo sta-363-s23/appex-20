@@ -1,0 +1,27 @@
+---
+title: "Untitled"
+format: html
+---
+
+## Setup
+
+Run these commands one time in the console:
+
+```
+install.packages("keras")
+keras::install_keras()
+```
+
+When it asks if you want to install Miniconda type `Y` and then hit `Enter`.
+
+This is installing the tools we need to fit Neural Networks (using Python behind the scenes)
+
+## Packages
+
+```{r}
+library(ISLR)
+library(tidymodels)
+library(tidyverse)
+library(keras)
+```
+
